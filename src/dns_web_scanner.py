@@ -68,7 +68,9 @@ thead {
 </style>
 <script type="text/javascript">
 $(document).ready(function(){
-  $('#content').dataTable();
+  $('#content').dataTable( {
+    "bPaginate": false
+      });
 });
 </script>
 <body>
