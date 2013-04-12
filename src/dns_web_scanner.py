@@ -26,7 +26,7 @@ from argparse import ArgumentParser
 from argparse import RawDescriptionHelpFormatter
 
 __all__ = []
-__version__ = 1
+__version__ = 2
 
 PROFILE = 0
 
@@ -44,10 +44,12 @@ HTML_TEMPLATE="""<!DOCTYPE HTML>
 
 <style type="text/css">
 .OK {
-    background-color: #99FF99;
+    color: green;
+    font-weight: bold;
 }
 .BAD {
-    background-color: #FF3300;
+    color: red;
+    font-weight: bold;
 }
 table,th,td {
     border: 1px solid black;
