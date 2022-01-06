@@ -1,6 +1,10 @@
 dns-web-scanner
 ===============
 
+
+This project is DEPRECATED and not any longer supported
+=======================================================
+
 Scan a list of DNS domains for active HTTP services and redirects. Example:
 
 ```
